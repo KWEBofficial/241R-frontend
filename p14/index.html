@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title>JS Exercise 4</title>
+  <meta charset="utf-8" />
+  <style>
+    #gauge-background {
+      position: relative;
+      width: 300px;
+      height: 10px;
+      margin: 20px 0;
+      background-color: red;
+    }
+    #gauge-bar {
+      position: absolute;
+      height: 10px;
+      background-color: blue;
+    }
+  </style>
+  <script src="./script.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <h1>Level-Up System</h1>
+  <div id="gauge-background">
+    <div id="gauge-bar"></div>
+  </div>
+  <div>Current Level: <span id="current-level">0</span></div>
+  <div>Attempts: <span id="attempts">0</span></div>
+  <button id="start-btn" onclick="tryLevelUp()">Start Level Up</button>
+</body>

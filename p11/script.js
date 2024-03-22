@@ -1,0 +1,1 @@
+const setRandomBgColor = () => {}; /* TODO */
