@@ -49,6 +49,7 @@ git add .
 git commit -m "${커밋 메시지}"
 ```
 ※ `git status` : 현재 로컬 저장소 상태 확인
+※ 이때 *"Please tell me who are you"* 문구가 나온다면, [여기](#내가-누구냐고-물어볼-때)를 참고하자.
 
 ![2024-1R-Frontend-04](https://github.com/LineNo2/241R-frontend/assets/57629885/27137f4f-3dd5-4284-905e-ef3b34c76117)
 
@@ -66,7 +67,39 @@ git push origin main
 
 ![2024-1R-Frontend-06](https://github.com/LineNo2/241R-frontend/assets/57629885/1f905371-9dae-4d5e-8234-582e795b33f3)
 
+# 내가 누구냐고 물어볼 때
+
+<h2 id="github-token-generation"> Github Token 만들기 </h2>
+
+![2024-1R-Frontend-07](https://github.com/LineNo2/241R-frontend/assets/57629885/505129e8-5b88-449e-bdb6-01280325c764)
+
+![2024-1R-Frontend-08](https://github.com/LineNo2/241R-frontend/assets/57629885/b7c5a0c1-3eb3-4fc8-9cf4-bf85edb62f3f)
+
+- 기간은 `Forever`로 설정하면 계속 사용 가능.
+- 이 토큰은 한번 발급받으면 절대 재확인이 불가능. 주의해서 저장해야함.
+
+## `git commit`시 내가 누구냐고 물어 볼 때
+
+- `git add .`후 `git commit`시 유저의 정보를 요구함.
+- 이는 `commit`시 유저의 정보가 필요해서임.
+- Github 가입했을 때 사용했던 이메일과, Github에서 사용중인 닉네임을 입력하면 됨.
+
+![2024-1R-Frontend-09](https://github.com/LineNo2/241R-frontend/assets/57629885/b4605785-863d-4412-877e-4ba68f8c3d55)
+
+![2024-1R-Frontend-10](https://github.com/LineNo2/241R-frontend/assets/57629885/7d93bd25-6f23-48ca-8e83-6d85f780ac80)
+
+## `git push`시 비밀번호 요구할 때 
+
+- 최초 push시 Username과 Password를 요구함.
+- Username 은 Github에서 사용중인 닉네임.
+- Password에는 상기 [Github Token 만들기](#github-token-generation)에서 발급받은 Token을 사용한다.
+
+![2024-1R-Frontend-11](https://github.com/LineNo2/241R-frontend/assets/57629885/da0b1e2d-76e3-4d4b-b430-91be7eb4e9c6)
+
+- 성공적으로 Push가 완료되었다.
+
 </details>
+
 
 
 
