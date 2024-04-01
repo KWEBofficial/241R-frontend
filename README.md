@@ -92,7 +92,7 @@ git config --global user.name "${YOUR_NAME}"
 
 ![241-10](https://github.com/KWEBofficial/241R-frontend/assets/57629885/78974ace-fbdc-4b27-8b2f-375597c37f2a)
 
-## `git push`시 비밀번호 요구할 때 
+### `git push`시 비밀번호 요구할 때 
 
 ```bash
 git config crediential.helper store --global
@@ -108,6 +108,14 @@ git push
 ![241-11](https://github.com/KWEBofficial/241R-frontend/assets/57629885/9ce41dc0-9125-4792-b69f-388109053d8a)
 
 - 성공적으로 Push가 완료되었다.
+
+### 최신 template을 내 저장소로 불러오기
+
+- [KWEB 준회원 스터디 Repository](https://github.com/KWEBofficial/241R-frontend)에서 발생하는 template 코드 변경사항을 내 저장소에 반영하려면,
+- 먼저 내 저장소에서 아래와 같이 sync fork - update branch 버튼을 눌러 원격 저장소에 반영하고,
+![241-12](https://github.com/KWEBofficial/241R-frontend/assets/55835326/8b12ef1c-e520-4d43-9ac6-673f898bf755)
+- 로컬에서 `git pull` command로 로컬 저장소에 반영하면 됩니다.
+- 혹시 이 과정에서 confilct가 발생한다면, 스터디장에게 문의해 주세요.
 
 </details>
 
