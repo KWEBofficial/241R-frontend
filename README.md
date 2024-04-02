@@ -25,15 +25,14 @@
 <summary>보기</summary>
   
 ### [KWEB 준회원 스터디 Repository](https://github.com/KWEBofficial/241R-frontend)에서 내 저장소로 Fork 하기
-![2024-1R-Frontend-01](https://github.com/LineNo2/241R-frontend/assets/57629885/1eb68dce-e0cc-4c6b-aace-9aae845b3a9c)
+![241-1](https://github.com/KWEBofficial/241R-frontend/assets/57629885/acc13a68-162b-486b-9286-c154c24c6814)
 
 ### 내 저장소에서 내 컴퓨터로 Clone 하기
 ```bash
 git clone ${내 저장소 URL}
 ```
 
-![2024-1R-Frontend-02](https://github.com/LineNo2/241R-frontend/assets/57629885/1e76e4d1-4eef-4349-bd06-ec880e0f7e40)
-
+![241-2](https://github.com/KWEBofficial/241R-frontend/assets/57629885/e8f5d5b6-bac7-4826-b109-b0c8ee55e6c3)
 ### 내 컴퓨터에 저장된 내 저장소 파일들 확인하기
 
 ```bash
@@ -41,7 +40,7 @@ cd 241R-frontend
 ```
 ※ cd : Change Directory
 
-![2024-1R-Frontend-03](https://github.com/LineNo2/241R-frontend/assets/57629885/f2ab44f9-a696-46d9-b542-87db0c8df7e8)
+![241-3](https://github.com/KWEBofficial/241R-frontend/assets/57629885/f4a9c261-adbd-47bd-9782-4f5d8c7b1722)
 
 ### 내 컴퓨터에서 변경된 파일 Commit 하기
 ```bash
@@ -51,7 +50,7 @@ git commit -m "${커밋 메시지}"
 ※ `git status` : 현재 로컬 저장소 상태 확인
 ※ 이때 *"Please tell me who are you"* 문구가 나온다면, [여기](#내가-누구냐고-물어볼-때)를 참고하자.
 
-![2024-1R-Frontend-04](https://github.com/LineNo2/241R-frontend/assets/57629885/27137f4f-3dd5-4284-905e-ef3b34c76117)
+![241-4](https://github.com/KWEBofficial/241R-frontend/assets/57629885/18deb62b-6a34-4cb0-83ff-e4557d05c66a)
 
 ### 내 컴퓨터에서 내 저장소로 Push 하기
 ```bash
@@ -60,43 +59,63 @@ git push origin main
 - origin : `remote` 이름
 - main : `branch` 이름
  
-![2024-1R-Frontend-05](https://github.com/LineNo2/241R-frontend/assets/57629885/d3f43713-2748-477a-830a-f7675791015e)
+![241-5](https://github.com/KWEBofficial/241R-frontend/assets/57629885/f7bb0051-a3fc-4350-b7d9-715010cf9da9)
 
 ### 내 저장소에서 KWEB 준회원 스터디 Repository로 Pull Request 날리기
 - *학번 이름 주차* 형식 준수.
 
-![2024-1R-Frontend-06](https://github.com/LineNo2/241R-frontend/assets/57629885/1f905371-9dae-4d5e-8234-582e795b33f3)
+![241-6](https://github.com/KWEBofficial/241R-frontend/assets/57629885/835677fd-8560-4dee-b604-c22b8c16cc8e)
 
 # 내가 누구냐고 물어볼 때
 
 <h2 id="github-token-generation"> Github Token 만들기 </h2>
 
-![2024-1R-Frontend-07](https://github.com/LineNo2/241R-frontend/assets/57629885/505129e8-5b88-449e-bdb6-01280325c764)
+![241-7](https://github.com/KWEBofficial/241R-frontend/assets/57629885/f42b7e55-0ee0-438f-a5e4-58ff2d2687c9)
 
-![2024-1R-Frontend-08](https://github.com/LineNo2/241R-frontend/assets/57629885/b7c5a0c1-3eb3-4fc8-9cf4-bf85edb62f3f)
+![241-8](https://github.com/KWEBofficial/241R-frontend/assets/57629885/4f310d07-24d8-4c50-a3da-ad2badd14861)
 
 - 기간은 `Forever`로 설정하면 계속 사용 가능.
 - 이 토큰은 한번 발급받으면 절대 재확인이 불가능. 주의해서 저장해야함.
 
 ## `git commit`시 내가 누구냐고 물어 볼 때
 
+```bash
+git config --global user.email "${YOUR_EMAIL}"
+git config --global user.name "${YOUR_NAME}"
+```
+
 - `git add .`후 `git commit`시 유저의 정보를 요구함.
 - 이는 `commit`시 유저의 정보가 필요해서임.
 - Github 가입했을 때 사용했던 이메일과, Github에서 사용중인 닉네임을 입력하면 됨.
 
-![2024-1R-Frontend-09](https://github.com/LineNo2/241R-frontend/assets/57629885/b4605785-863d-4412-877e-4ba68f8c3d55)
+![241-9](https://github.com/KWEBofficial/241R-frontend/assets/57629885/87b7f9bd-1854-48c6-8a00-74ea5e185056)
 
-![2024-1R-Frontend-10](https://github.com/LineNo2/241R-frontend/assets/57629885/7d93bd25-6f23-48ca-8e83-6d85f780ac80)
+![241-10](https://github.com/KWEBofficial/241R-frontend/assets/57629885/78974ace-fbdc-4b27-8b2f-375597c37f2a)
 
-## `git push`시 비밀번호 요구할 때 
+### `git push`시 비밀번호 요구할 때 
+
+```bash
+git config crediential.helper store --global
+git push
+```
 
 - 최초 push시 Username과 Password를 요구함.
 - Username 은 Github에서 사용중인 닉네임.
 - Password에는 상기 [Github Token 만들기](#github-token-generation)에서 발급받은 Token을 사용한다.
 
-![2024-1R-Frontend-11](https://github.com/LineNo2/241R-frontend/assets/57629885/da0b1e2d-76e3-4d4b-b430-91be7eb4e9c6)
+※ `git config crediential.helper store --global`을 쳐서 Credential을 영구적으로 저장하자. 안하면 귀찮아 진다.
+
+![241-11](https://github.com/KWEBofficial/241R-frontend/assets/57629885/9ce41dc0-9125-4792-b69f-388109053d8a)
 
 - 성공적으로 Push가 완료되었다.
+
+### 최신 template을 내 저장소로 불러오기
+
+- [KWEB 준회원 스터디 Repository](https://github.com/KWEBofficial/241R-frontend)에서 발생하는 template 코드 변경사항을 내 저장소에 반영하려면,
+- 먼저 내 저장소에서 아래와 같이 sync fork - update branch 버튼을 눌러 원격 저장소에 반영하고,
+![241-12](https://github.com/KWEBofficial/241R-frontend/assets/55835326/8b12ef1c-e520-4d43-9ac6-673f898bf755)
+- 로컬에서 `git pull` command로 로컬 저장소에 반영하면 됩니다.
+- 혹시 이 과정에서 confilct가 발생한다면, 스터디장에게 문의해 주세요.
 
 </details>
 
