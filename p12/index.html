@@ -1,24 +1,41 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
-
-<h3>Input password:</h3>
-<input type="password" name="password" />
-
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class = "name">
+      <h3 id = "textname">Input username: </h3>
+      <input type="text" name="username" id = "nameinput">
+    </div>
+    <div class = "password">
+      <h3 id = "textpassword">Input password: </h3> 
+      <input type="password" name="password" id = "passwordinput">
+    </div>
+    <div class = "gender">
+      <h3 id = "textgender">Gender: </h3>
+      <label id = "gender1"><input type="radio" name="gender" value="male">Male</label>
+      <label id = "gender2"><input type="radio" name="gender" value="female">Female</label>
+      <label id = "gender3"><input type="radio" name="gender" value="other">Other</label>
+    </div>
+    <div class = "major">
+      <h3 id = "textmajor">Your Major: </h3>
+      <select name="major" id = "majorselect">
+      <option value="cs">Computer Science</option>
+      <option value="phy">Physics</option>
+      <option value="chm">Chemistry</option>
+      <option value="math">Mathematics</option>
+    </select>
+    </div>
+    <div class = "introduce">
+      <h3 id = "textintroduce">Introduce yourself: </h3>
+      <textarea id = "inputintroduce" cols="40" rows="5"
+      placeholder="Introduce yourself"
+      name="introduction">
+      </textarea>
+    </div>
+  </body>
+</html>
