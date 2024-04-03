@@ -1,24 +1,66 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page header" id="page title">
+      <h1>KWEB Survey Page</h1>
+    </div>
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+    <div class="page header" id="title image">
+      <img src="https://i.imgur.com/hSSFVSw.png" width="300" />
+    </div>
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+    <div class="page header" id="homepage href">
+      <p><a href="https://kwebofficial.com/">KWEB Homepage</a></p>
+    </div>
+
+    <div class="survey" id="name">
+      <p><b>1. Write your name.</b></p>
+      <input type="text" name="username" />
+    </div>
+
+    <div class="survey" id="number">
+      <p><b>2. Write your student number.</b></p>
+      <input type="text" name="studenet number" />
+    </div>
+
+    <div class="survey" id="level">
+      <p><b>3. Select your member level.</b></p>
+      <input type="radio" name="member level" value="Admin" />Admin
+      <input type="radio" name="member level" value="Intern" />Intern
+      <input type="radio" name="member level" value="Qualified" />Qualified
+    </div>
+
+    <div class="survey" id="fields">
+      <p><b>4. Select all fields you are interested in.</b></p>
+      <input type="checkbox" name="fields" value="Front-end" />Front-end
+      <input type="checkbox" name="fields" value="Back-end" />Back-end
+      <input type="checkbox" name="fields" value="Web crawling" />Web crawling
+      <input type="checkbox" name="fields" value="Web security" />Web security
+      <input type="checkbox" name="fields" value="Etcetera" />Etcetera<input
+        type="text"
+        name="Excetera Fields"
+      />
+    </div>
+
+    <div class="survey" id="overall feedback">
+      <p>
+        <b
+          >5. Give us your overall evaluation and feedback about the previous
+          study.</b
+        >
+      </p>
+      <textarea cols="60" rows="16" name="feedback"></textarea>
+    </div>
+    <div class="submit button">
+      <p>
+        <button type="submit">Submit your answers</button>
+      </p>
+    </div>
+  </body>
+</html>
