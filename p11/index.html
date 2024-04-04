@@ -1,1 +1,37 @@
 <!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>KWEB Survey Page</h2>
+    <img src = "./images/logo.png"
+        alt = "KWEB logo"
+        width = 235>
+    <br>
+    <a href="https://i.imgur.com/hSSFVSw.png" title = "케이웹 홈페이지" target = "_blank">KWEB Hompage</a>
+    <br>
+    <h3>1. write your name.</h3>
+    <input type="text" name="username">
+    <h3>2. Write your student number.</h3>
+    <input type="text" name="number">
+    <h3>3. Select your member level.</h3>
+    <label><input type="radio" name = "level" value = "Admin">Admin</label>
+    <label><input type="radio" name = "level" value = "Intern">Intern</label>
+    <label><input type="radio" name = "level" value = "Qualified">Qualified</label>
+    <h3>4. Select all fields you are interested in.</h3>
+    <label><input type="checkbox" name = "field" value = "Admin">Front-end</label>
+    <label><input type="checkbox" name = "field" value = "Admin">Back-end</label>
+    <label><input type="checkbox" name = "field" value = "Admin">Web crawling</label>
+    <label><input type="checkbox" name = "field" value = "Admin">Web security</label>
+    <label><input type="checkbox" name = "field" value = "Admin">Etcetera <input type="text" name="field" ></label>
+    <h3>5. Give us your overall evaluation and feedback about the previous study.</h3>
+    <textarea placeholder=""
+                name="feedback"></textarea>
+                <br>
+    <button type="submit">submit your answers</button>
+</body>
+</html>
