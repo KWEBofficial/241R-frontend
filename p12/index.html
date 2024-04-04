@@ -1,24 +1,50 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<!-- TODO -->
+<!doctype html>
+<html>
+<head>
+    <title>User-Information</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class = "Username">
+    <h3>Input username:</h3>
+    <input type="text" name="username" />
+  </div>
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+  <div class = "Password">
+    <h3>Input password:</h3>
+    <input type="password" name="password" />
+  </div>
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+  <div class = "Gender">
+    <h3>Gender:</h3>
+    <label><input type="radio" name="gender" value="male" />Male</label>
+    <label><input type="radio" name="gender" value="female" />Female</label>
+    <label><input type="radio" name="gender" value="other" />Other</label>
+  </div>
+
+  <div class = "Major">
+    <h3>Your Major:</h3>
+    <select name="major">
+      <option value="cs">Computer Science</option>
+      <option value="phy">Physics</option>
+      <option value="chm">Chemistry</option>
+      <option value="math">Mathematics</option>
+    </select>
+  </div>
+
+  <div class = "Introduction">
+    <h3>Introduce yourself:</h3>
+    <textarea
+      cols="40"
+      rows="5"
+      placeholder="Introduce yourself"
+       name="introduction"
+    ></textarea>
+  </div>
+
+</body>
+</html>
+
