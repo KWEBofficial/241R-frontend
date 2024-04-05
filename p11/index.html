@@ -1,1 +1,77 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWEB Survey Page</title>
+</head>
+<body>
+    <div class="page-title">
+        <b style="font-size:25px">KWEB Survey Page</b>
+    </div>
+    <br />
+    <div class="KWEB-Logo">
+        <img 
+            src="./images/logo.png"
+            width="230px"
+            alt="KWEB Logo"
+        />
+    </div>
+    <span class="KWEB-link">
+        <a
+            href="https://kwebofficial.com/"
+            title="KWEB Homepage"
+            target="_blank"
+        >
+            KWEB Homepage
+        </a>
+    </span>
+    <br />
+    <br />
+    <div class="survey-form">
+        <div class="question">
+            <b style="font-size:18px">1. Write your name.</b>
+            <br />
+            <br />
+            <input type="text" name="name" id="user-name">
+        </div>
+        <br />
+        <div class="question">
+            <b style="font-size:18px">2. Write your student number.</b>
+            <br />
+            <br />
+            <input type="text" name="stu-num" id="user-stu-num">
+        </div>
+        <br />
+        <div class="question">
+            <b style="font-size:18px">3. Select your member level.</b>
+            <br />
+            <br />
+            <label><input type="radio" name="level">Admin</label>
+            <label><input type="radio" name="level">Intern</label>
+            <label><input type="radio" name="level">Qualified</label>
+        </div>
+        <br />
+        <div class="question">
+            <b style="font-size:18px">4. Select all fields you are interested in.</b>
+            <br />
+            <br />
+            <label><input type="checkbox" name="fields">Fornt-end</label>
+            <label><input type="checkbox" name="fields">Back-end</label>
+            <label><input type="checkbox" name="fields">Web crawling</label>
+            <label><input type="checkbox" name="fields">Web security</label>
+            <label><input type="checkbox" name="fields">Etcetera</label>
+            <input type="text" name="fields-etc" id="user-fields-etc">
+        </div>
+        <br />
+        <div class="question">
+            <b style="font-size:18px">5. Give us your overall evaluation and feedback about the previous study.</b>
+            <br />
+            <br />
+            <textarea cols="71" rows="20" name="introduction"></textarea>
+        </div>
+        <br />
+        <button type="submit">Submit your answers</button>
+    </div>
+</body>
+</html>
