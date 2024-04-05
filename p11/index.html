@@ -1,1 +1,46 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P11</title>
+</head>
+<body>
+    <h1>KWEB Survey Page</h1>
+    <img src="https://i.imgur.com/hSSFVSw.png" alt="KWEB Logo">
+    <p><a href="https://kwebofficial.com" title="KWEB Homepage" target="_parent">KWEB Homepage</a></p>
+    <div class="input" id="input_name">
+        <p><b>1. Write your name.</b></p>
+        <input type="text" name="name" id=""/>
+    </div>
+    <div class="input" id="input_snum">
+        <p><b>2. Write your student number.</b></p>
+        <input type="number" name="snum" id=""/>
+    </div>
+    <div class="input" id="input_lvl">
+        <p><b>3. Select your member level.</b></p>
+        <input type="radio" name="lvl" id="Admin"/>Admin
+        <input type="radio" name="lvl" id="Intern"/>Intern
+        <input type="radio" name="lvl" id="Qualified"/>Qualified
+    </div>
+    <div class="input" id="input_field">
+        <p><b>4. Select all fields you are interested in.</b></p>
+        <span><input type="checkbox" name="field" id="Front-end"/>Front-end</span>
+        <span><input type="checkbox" name="field" id="Back-end"/>Back-end</span>
+        <span><input type="checkbox" name="field" id="Web crawling"/>Web crawling</span>
+        <span><input type="checkbox" name="field" id="Web security"/>Web security</span>
+        <span><input type="checkbox" name="field" id="Etcetera"/>Etcetera</span>
+        <span><input type="text" name="Etc" id=""/></span>
+    </div>
+    <div class="input" id="input_fdbk">
+        <p><b>5. Give us your overall evaluation and feedback about the previous study.</b></p>
+        <textarea
+            cols="80"
+            rows="20"
+            placeholder=""
+            name="feedback"
+        ></textarea>
+    </div>
+    <button>Submit your answers.</button>
+</body>
+</html>
