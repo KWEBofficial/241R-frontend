@@ -1,1 +1,53 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWEB</title>
+</head>
+
+<body>
+    <h1>KWEB Survey Page</h1>
+    <br>
+    <img src="./images/logo.png" alt="KWEB Logo" width="300">
+    <br>
+    <a href="https://kwebofficial.com/">KWEB Homepage</a>
+    <div class="survey-area">
+        <div class="question-1">
+            <h3>1. Write your name.</h3>
+            <input type="text" name="username" id="name">
+        </div>
+        <div class="question-2">
+            <h3>2. Write your student number.</h3>
+            <input type="number" name="studentnumber" id="number">
+        </div>
+        <div class="question-3">
+            <h3>3. Select your member level.</h3>
+            <span>
+                <label><input type="radio" name="level" value="admin" id="level1">Admin</label>
+                <label><input type="radio" name="level" value="intern" id="level2">Intern</label>
+                <label><input type="radio" name="level" value="qualified" id="level3">Qualified</label>
+            </span>
+        </div>
+        <div class="question-4">
+            <h3>4. Select all fields you are interested in.</h3>
+            <span>
+                <label><input type="radio" name="field" value="frontend" id="field1">Front-End</label>
+                <label><input type="radio" name="field" value="backend" id="field2">Back-end</label>
+                <label><input type="radio" name="field" value="webcrawling" id="field3">Web crawling</label>
+                <label><input type="radio" name="field" value="websecurity" id="field4">Web security</label>
+                <label><input type="radio" name="field" value="etc" id="field5">Etcetera&nbsp;</label>
+                <input type="text" name="etc" id="etc">
+            </span>
+        </div>
+        <div class="question-5">
+            <h3>5. Give us your overall evaluation and feedback about the previous study.</h3>
+        </div>
+        <textarea cols="100" rows="20" name="feedback" id="feedback"></textarea>
+        <br>
+        <button id="submit">Submit your answers</button>
+    </div>
+</body>
+
+</html>
