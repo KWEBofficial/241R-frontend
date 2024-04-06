@@ -1,24 +1,70 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KWEB Survey Page</title>
+        <meta charset="utf-8">
+        <meta name="description" content="KWEB 2주차 과제1, 설문조사 페이지 구성">
+        <!-- meta == 해당 웹페이지의 메타데이터 
+                    name: meta 태그를 어떻게 사용할 것인지.
+                    name - description 페이지에 대한 간략한 설명 작성 가능
+                    name - keywords : 웹페이지의 키워드 정의 => 검색 엔진이 활용가능
+                    name - viewport : 기기에 따라 어떻게 보이게 할지 정하는 기능
+                                    ex)content="width=divice-width",initial-scale=1.0
+                                        이면 너비는 해당 기기의 너비에 맞추고, 초기 확대비율 1로 설정 -->
+    </head>
+    <body>
+        <header id="page-header"><!-- div도 사용되긴하지만, 시맨틱 요소를 활용하면 더 명확하게 구조 표현 가능 header: 문서나 섹션의 머리말 ex)로고,제목,검색폼-->
+            <!-- 참고로 div,span은 non-semantic 요소 -->
+            <h2>KWEB Survey Page</h2>
+            <h4><img src="./images/logo.png" alt="KWEB 로고" style="width: 300px"></h4>
+            <!-- alt: 이미지 로드 되지 않을 경우 대체 문자, style: 너비, 높이 지정 && 너비 지정하면 자동으로 높이(비율로도 가능) -->
+        </header>
+        <nav id="kweb-homepage"><!--header와 마찬가지로 시맨틱요소, 내비게이션 링크를 감싸는데 사용-->
+            <a href="https://kwebofficial.com/" target="blank">KWEB Homepage</a>
+        <br><!--개행-->
+        </nav>
+        <main>
+            <div class="survey-element" id="name">
+                <h4>1. Write your name.</h4>
+                <input type="text" name="name" placeholder="이름을 입력하세요">
+            </div>
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+            <div class="survey-element" id="student-number">
+                <h4>2. Write your student number.</h4>
+                <input type="text" name="student-number" placeholder="학번을 입력하세요">
+            </div>
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+            <div class="survey-element" id="member-level">
+                <h4>3. Seleect your member level.</h4>
+                <input type="radio" name="member-level" value="admin">Admin
+                <input type="radio" name="member-level" value="intern">Intern
+                <input type="radio" name="member-level" value="qualified">Qualified
+                <!-- radio로 할때는, input요소의 name이 같아야함! name이 같은 경우, 그 중 하나만 서버로 전송됨 -->
+                <!-- <select name="member-level">       //드롭다운//
+                    <option value="admin">Admin</option>
+                    <option value="intern">Intern</option>
+                    <option value="qualified">Qualified</option>
+                </select> -->
+            </div>
+                
+            <div class="survey-element" id="interested-field">
+                <h4>4. Select all fields you are interested in.</h4>
+                <input type="checkbox" name="field1" value="Front-end">Front-end
+                <input type="checkbox" name="field2" value="Back-end">Back-end
+                <input type="checkbox" name="field3" value="Web-crawling">Web crawling
+                <input type="checkbox" name="field4" value="Web-security">Web security
+                <input type="checkbox" name="field5" value="Etcetra">Etcetra <input type="text" name="field-etcetra">
+            </div>
+            <!-- name은 입력받은 항목의 이름이므로 중복을 허용하게 할때는 다른 name을 사용해야함. 준회원 스터디 pdf p.16 참조 -->
+            <div class="survey-element" id="feedback">
+                <h4>5. Give us your overall evaluation and feedback about the previous study.</h4>
+                <textarea cols="50" rows="20" placeholder="피드백란" name="feedback"></textarea>
+            </div>
+
+            <div class="button" id="survey-submit">
+                <button type="submit">Submit your answers</button>
+            </div>
+        </main>
+    </body>
+
+</html>
