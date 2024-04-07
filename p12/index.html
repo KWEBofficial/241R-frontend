@@ -1,24 +1,58 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+  <div class="intro">
+      <h1>KWEB Survey Page</h1>
+      <img src="../p11/images/logo.png" width="335">
+  </div>
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+  <div id="homepage">
+      <a  href="https://kwebofficial.com/"
+          title="KWEB Homepage" 
+          target="_self">KWEB Homepage
+      </a>
+  </div>
+  
+  <div class="name-section">
+      <h3>1. Write your name.</h3>
+      <input type="text" name="name">
+  </div>
+  
+  <div class="number-section">
+      <h3>2. Write your student number.</h3>
+      <input type="text" name="student-number">
+  </div>
+  
+  <div class="level-section">
+      <h3>3. Select your member level.</h3>
+      <label><input type="radio" name="member-level" value="admin">Admin</label>
+      <lable><input type="radio" name="member-level" value="intern">Intern</lable>
+      <lable><input type="radio" name="member-level" value="qualified">Qualified</lable>
+  </div>
+  
+  <div class="intersted-things">
+  <h3>4. Select all fields you are interested in.</h3>
+      <lable><input type="checkbox" name="interested" value="fornt-end">Front-end</lable>
+      <lable><input type="checkbox" name="interested" value="back-end">Back-end</lable>
+      <lable><input type="checkbox" name="interested" value="web crawling">Web crawling</lable>
+      <lable><input type="checkbox" name="interested" value="web security">Web security</lable>
+      <lable><input type="checkbox" name="interested" value="etcetera">Etcetera</lable>
+      <input type="text" name="etcetera">
+  </div>
+
+  <div class="ev_feed">
+      <h3>5. Give us your overall evaluation and feedback about the previous study.</h3>
+      <textarea cols="98" rows="25" name="ev_feed">
+      </textarea>
+      <br>
+      <button type="submit">Submit your answers</button>
+  </div>
+
+</body>
+</html>
