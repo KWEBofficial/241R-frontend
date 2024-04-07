@@ -1,1 +1,49 @@
 <!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h4>KWEB Survey Page</h4>
+        <img src="./images/logo.png" alt="kweb 로고 이미지" width="200" height="auto">
+        <a href="https://kwebofficial.com/"></a>
+    </header>
+    <main>
+        <form>
+            <h3 class="question">1. Write your name.</h3>
+            <input type="text">
+            <h3 class="question">2. Write your student number.</h3>
+            <input type="text">
+            <h3 class="question">3. Select your member level.</h3>
+            <input type="radio" id="admin" name="level" value="Admin">
+            <label for="admin">Admin</label>
+            <input type="radio" id="intern" name="level" value="Intern">
+            <label for="intern">Intern</label>
+            <input type="radio" id="qualified" name="level" value="Qualified">
+            <label for="qualified">Qualified</label>
+
+            <h3 class="questions">4. Select all fields you are interested in.</h3>
+            <input type="checkbox" id="front" name="fields" value="front">
+            <label for="front">Front-end</label>
+            <input type="checkbox" id="back" name="fields" value="back">
+            <label for="back">Back-end</label>
+            <input type="checkbox" id="web-crawling" name="fields" value="web-crawling">
+            <label for="web-crawling">Web crawling</label>
+            <input type="checkbox" id="web-security" name="fields" value="web-security">
+            <label for="web-crawling">Web security</label>
+            <label for="etctext"><input type="checkbox" id="etc" name="fields" value="etc"></label>
+            <label for="etc">Etcetera</text></label>
+            <input type="text" id="etctext" name="etctext" value="">
+
+            <h3 class="questions">Give us your overall evaluation and feedback about the previous study.</h3>    
+            <textarea id="message" name="message" rows="20" cols="100"></textarea>
+            <br>
+            <button type="submit">Submit your answers</button>    
+        </form>    
+    </main>
+</body>
+</html>
