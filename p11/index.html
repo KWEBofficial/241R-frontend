@@ -1,1 +1,57 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kweb Survey Page</title>
+  </head>
+  <body>
+    <div>
+      <h1>KWEB Survey Page</h1>
+    </div>
+    <div>
+      <img src="images/logo.png" alt="kweb logo" width="300" id="logoImage" />
+      <br />
+      <a href=" https://kweboﬀicial.com">KWEB Hompage</a>
+    </div>
+    <div class="serveyQuestions">
+      <h2>1. Write your name.</h2>
+
+      <input type="text" name="name" id="name" />
+
+      <h2>2. Write your student number.</h2>
+
+      <input type="text" name="student_number" id="student_number" />
+
+      <h2>3. Select your member level.</h2>
+
+      <input type="radio" name="Admin" id="radio_1" />Admin
+      <input type="radio" name="Intern" id="radio_2" />Intern
+      <input type="radio" name="Qualified" id="radio_3" />Qualified
+
+      <h2>4. Select all fields you are interested in.</h2>
+
+      <input type="checkbox" name="Front-end" id="check_1" />Front-end
+      <input type="checkbox" name="Back-end" id="check_2" />Back-end
+      <input type="checkbox" name="Web-crawling" id="check_3" />Web-crawling
+      <input type="checkbox" name="Web security" id="check_4" />Web security
+      <input type="checkbox" name="etcetera" id="check_5" />Etcetera
+      <input type="text" name="etcetera_text" id="etc_text" />
+
+      <h2>
+        5. Give us your overall evaluation and feedback about the previous
+        study.
+      </h2>
+
+      <input
+        type="text"
+        name="feedback"
+        id="feedback"
+        style="width: 500px; height: 300px"
+      />
+    </div>
+    <div>
+      <button type="button" id="submitButton">submit your answers</button>
+    </div>
+  </body>
+</html>
