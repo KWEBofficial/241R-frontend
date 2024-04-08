@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='week1.css'>
+    <title>KWEB Survey Page</title>
+</head>
+<body>
+    <div id="header">
+        <h1>KWEB Survey Page</h1>
+        <div><img src="./images/logo.png" width="400px"></div>
+        <a href="https://kweboﬀicial.com/" target="_blank">KWEB Homepage</a>
+    </div>
+    <div id="content">
+        <div class="survey" id="name">
+            <h3>1. Write your name.</h3>
+            <input type="text">
+        </div>
+        <div class="survey" id="stu-num">
+            <h3>2. Write your student number.</h3>
+            <input type="text">
+        </div>
+        <div class="survey" id="mem-level">
+            <h3>3. Select your member level.</h3>
+            <label><input type="radio" name="member_level">Admin</label>
+            <label><input type="radio" name="member_level">Intern</label>
+            <label><input type="radio" name="member_level">Qualified</label>
+        </div>
+        <div class="survey" id="interest">
+            <h3>4. Select all fields you are interested in.</h3>
+            <label><input type="checkbox">Front-end</label>
+            <label><input type="checkbox">Back-end</label>
+            <label><input type="checkbox">Web Crawling</label>
+            <label><input type="checkbox">Web Security</label>
+            <label><input type="checkbox">Etcetera</label>
+            <input type="text">
+        </div>
+        <div class="survey" id="feedback">
+            <h3>Give us your overall evaluation and feedback about the previous study.</h3>
+            <div>
+                <textarea rows="15" cols="75"></textarea>
+            </div>
+        </div>
+        <button>Submit your answers</button>
+    </div>
+</body>
+</html>
