@@ -1,1 +1,36 @@
-/* TODO */
+* {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  margin: 10px;
+}
+
+.numbers {
+  margin: 10px;
+  display: flex;
+}
+
+.number {
+  margin: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  border: 1px solid gray;
+  background-color: rgb(236, 233, 233);
+}
+
+.container {
+  margin: auto;
+}
