@@ -1,1 +1,52 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="information">
+        <h2>KWEB Survey Page</h2>
+        <img src="images/logo.png" alt="KWEB Logo" width="250">
+        <br>
+        <a href="https://kwebofficial.com/" title="KWEB Homepage" target="_self">KWEB Homepage</a>
+    </div>
+
+    <div id="write-name">
+        <h3>1. Write your name.</h3>
+        <input type="text" name="username">
+    </div>
+
+    <div id="write-student-number">
+        <h3>2. Write your student number.</h3>
+        <input type="text" name="student-number">
+    </div>
+
+    <div id="select-member-level">
+        <h3>3. Select your member level.</h3>
+        <label><input type="radio" name="member-level" value="Admin">Admin</label>
+        <label><input type="radio" name="member-level" value="Intern">Intern</label>
+        <label><input type="radio" name="member-level" value="Qualified">Qaulified</label>
+    </div>
+
+    <div id="select-fields">
+        <h3>4. Select all fields you are interested in.</h3>
+        <label><input type="checkbox" name="fields" value="Front-end">Front-end</label>
+        <label><input type="checkbox" name="fields" value="Back-end">Back-end</label>
+        <label><input type="checkbox" name="fields" value="Web crawling">Web crawling</label>
+        <label><input type="checkbox" name="fields" value="Web security">Web security</label>
+        <label><input type="checkbox" name="fields" value="Etcetera">Etcetera<input type="text"></label>
+    </div>
+    
+    <div id="write-previous-study">
+        <h3>5. Give us your overall evaluation and feedback about the previous study.</h3>
+        <textarea cols="97" rows="20" name="previous-study"></textarea>
+        <br>
+        <button>Submit your answers</button>
+    </div>
+</body>
+
+</html>
