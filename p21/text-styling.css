@@ -1,1 +1,16 @@
-/* TODO */
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.chapter .horizontal-lists {
+    color: blue;
+}
+
+.chapter-name {
+    font-weight: bold;
+}
+
+#current-chapter {
+    color: red;
+}
