@@ -1,1 +1,56 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWEB Survey Page</title>
+</head>
+<body>
+    <h2 id="page-title">KWEB Survey Page</h2>
+
+    <div id="logo">
+        <img src="./images/logo.png" alt = "KWEB logo" width="250">
+    </div>
+    
+    <div id="homepage">
+        <a href="https://kwebofficial.com/" title="kwebofficial.com" target="_blank">KWEB homepage</a>
+    </div>
+    
+
+    <div class="article">
+        <h3 class="question">1. Write your name.</h3>
+        <input type="text" name="name">
+    </div>
+
+    <div class="article">
+        <h3 class="question">2. Write your student number.</h3>
+        <input type="text" name="student-number">
+    </div>
+
+    <div class="article">
+        <h3 class="question">3. Select your member level.</h3>
+        <label><input type="radio" name="level" value="admin">Admin</label>
+        <label><input type="radio" name="level" value="intern">Intern</label>
+        <label><input type="radio" name="level" value="qualified">Qualified</label>
+    </div>
+
+    <div class="article">
+        <h3 class="question">4. Select all fields you are interesed in.</h3>
+        <label><input type="checkbox" name="field" value="front-end">Front-end</label>
+        <label><input type="checkbox" name="field" value="back-end">Back-end</label>
+        <label><input type="checkbox" name="field" value="web-crawling">Web crawling</label>
+        <label><input type="checkbox" name="field" value="web-security">Web security</label>
+        <label><input type="checkbox" name="field" value="etc">Etcetra <input type="text"></label>
+    </div>
+
+    <div class="article">
+        <h3 class="question">5. Give us your overall evaluation and feedback about the previous study.</h3>
+        <textarea cols="90" rows="20" name="evaluation"></textarea>
+    </div>
+
+    <div id="submit-button">
+        <button type="submit">Submit your answer</button>
+    </div>
+
+</body>
+</html>

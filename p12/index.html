@@ -1,24 +1,46 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<!DOCTYPE html>
+<html lang="en">
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Tags</title>
+</head>
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+<body>
+
+  <div class="article" id="article-username">
+    <h3 class="question">Input username:</h3>
+    <input type="text" name="username" />
+  </div>
+
+  <div class="article" id="article-password">
+    <h3 class="question">Input password:</h3>
+    <input type="password" name="password" />
+  </div>
+
+  <div class="article" id="article-gender">
+    <h3 class="question">Gender:</h3>
+    <label><input type="radio" name="gender" value="male" />Male</label>
+    <label><input type="radio" name="gender" value="female" />Female</label>
+    <label><input type="radio" name="gender" value="other" />Other</label>
+  </div>
+
+  <div class="article" id="article-major">
+    <h3 class="question">Your Major:</h3>
+    <select name="major">
+      <option value="cs">Computer Science</option>
+      <option value="phy">Physics</option>
+      <option value="chm">Chemistry</option>
+      <option value="math">Mathematics</option>
+    </select>
+  </div>
+
+<div class="article" id="article-introduce">
+  <h3 class="question">Introduce yourself:</h3>
+  <textarea cols="40" rows="5" placeholder="Introduce yourself" name="introduction"></textarea>
+</div>
+
+</body>
+
+</html>
