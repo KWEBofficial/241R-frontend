@@ -1,1 +1,64 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Page</title>
+    <style>
+        .image-with-text {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-with-text img {
+            width: 100px;
+            /* 이미지의 너비 조정 */
+            height: auto;
+            /* 이미지의 높이 자동으로 조정 */
+            margin-right: 20px;
+            /* 이미지와 텍스트 사이의 간격 조정 */
+        }
+        textarea {
+            width: 800px; /* 너비 조정 */
+            height: 300px; /* 높이 조정 */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>KWEB Survey Page</h3>
+    <div class="image-with-text">
+        <img src="https://i.imgur.com/hSSFVSw.png" width="500" alt="KWEB이미지입니다. 안 뜨면 버그임">
+        <h1>KWEB</h1>
+    </div>
+    <a href="https://kwebofficial.com/" target="_blank">KWEB Homepage</a>
+    <h4>1. Write your name.</h4>
+    <input type="text" placeholder="name" id="'text">
+    <h4>2. Write your student number.</h4>
+    <input type="text" placeholder="number" id="'text">
+    <h4>3. Select your member level.</h4>
+    <div>
+        <label><input type="radio" name="level" class="Lv1">Admin</label>
+        <label><input type="radio" name="level" class="Lv2">Intern</label>
+        <label><input type="radio" name="level" class="Lv3">Qualified</label>
+    </div>
+    <h4>4. Select all fields you are interested in.</h4>
+    <div>
+        <input type="checkbox"><label>Front-end</label>
+        <input type="checkbox"><label>Back-end</label>
+        <input type="checkbox"><label>Web crawling</label>
+        <input type="checkbox"><label>Web security</label>
+        <input type="checkbox"><label>Etcetera</label><input type="text">
+
+    </div>
+    <h4>5. Give us your overall evaluation and feedback about the previous study.</h4>
+    <textarea>
+    </textarea>
+    <h6></h6>
+    <button>Submit your answers</button>
+
+</body>
+
+</html>
