@@ -1,1 +1,62 @@
 <!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top" id="top1">
+        <p>
+            <h3>KWEB Survey Page</h3>
+        </p>
+        <img src="./images/logo.png" height="60", width="210" />
+    </div>
+
+    <div class="top" id="top2">
+        <a href="https://kwebofficial.com">KWEB Homepage</a>
+    </div>
+
+    <div class="middle" id="name">
+        <h4>1. Write your name.</h4>
+
+        <input type="text" name="name">
+    </div>
+
+    <div class="middle" id="student-number">
+        <h4>2. Write your student number.</h4>
+        
+        <input type="text" name="student-number">
+    </div>
+
+    <div class="middle" id="member-level">
+        <h4>3. Select your member level.</h4>
+    
+        <label><input type="radio" name="member-level" value="Admin">Admin&nbsp;&nbsp;</label>
+        <label><input type="radio" name="member-level" value="Intern">Intern&nbsp;&nbsp;</label>
+        <label><input type="radio" name="member-level" value="Qualified">Qualified&nbsp;&nbsp;</label>
+    </div>
+
+    <div class="middle" id="interested-fields">
+        <h4>4. Select all fields you are interested in.</h4>
+    
+        <label><input type="checkbox" name="interested-fields" value="Front-end">Front-end&nbsp;&nbsp;</label>
+        <label><input type="checkbox" name="interested-fields" value="Back-end">Back-end&nbsp;&nbsp;</label>
+        <label><input type="checkbox" name="interested-fields" value="Web crawling">Web crawling&nbsp;&nbsp;</label>
+        <label>
+            <input type="checkbox" name="interested-fields" value="Etcetera">Etcetera&nbsp;
+            <input type="text" name="etc">
+        </label>
+    </div>
+
+    <div class="middle" id="feedback">
+        <h4>5. Give us your overall evaluation and feedback about the previous study.</h4>
+        
+        <textarea name="feedback" cols="70" rows="10"></textarea>
+    </div>
+
+    <input type="button" value="Submit your answers">
+
+</body>
+</html>
