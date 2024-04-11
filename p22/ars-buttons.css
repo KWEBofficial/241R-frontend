@@ -1,1 +1,20 @@
-/* TODO */
+.header{
+    font-size: large;
+}
+.numbers{
+    margin: 10px;
+    text-align: center;
+}
+.number{
+    display: inline-block;
+    background-color: rgb(240, 128, 128);
+
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0.1px solid black;
+    align-content: center;
+}
+
+
