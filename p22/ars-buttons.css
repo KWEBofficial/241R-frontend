@@ -1,1 +1,29 @@
 /* TODO */
+
+.container {
+  padding: 20px;
+}
+
+.container .numbers {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  margin-left: 50px; /* 왼쪽 공백 설정 */
+}
+
+.container .numbers .number {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(232, 121, 140);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+.container .footer {
+  padding-top: 10px;
+}
