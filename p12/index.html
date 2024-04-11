@@ -1,24 +1,45 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<!DOCTYPE html>
+<html lang="en">
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Tags</title>
+</head>
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+<body>
+  <div class="username">
+    <h3 id="username-title">Input username: </h3>
+    <input id="username-content" type="text" name="username">
+  </div>
+
+  <div class="password">
+    <h3 id="password-title">Input password: </h3>
+    <input id="password-content" type="password" name="password">
+  </div>
+
+  <div class="gender">
+    <h3 id="gender-title">Gender: </h3>
+    <span id="gender-content"><label><input type="radio" name="gender" value="male">Male</label>
+      <label><input type="radio" name="gender" value="female">Female</label>
+      <label><input type="radio" name="gender" value="other">Other</label></span>
+  </div>
+
+  <div class="major">
+    <h3 id="major-title">Your Major: </h3>
+    <select id="major-content" name="major">
+      <option value="cs">Computer Science</option>
+      <option value="phy">Physics</option>
+      <option value="chm">Chemistry</option>
+      <option value="math">Mathematics</option>
+    </select>
+  </div>
+
+  <div class="introduction">
+    <h3 id="introduction-title">Introduce yourself: </h3>
+    <textarea id="introduction-content" cols="40" rows="5" placeholder="Introduce yourself" name="introduction">
+    </textarea>
+  </div>
+</body>
+
+</html>

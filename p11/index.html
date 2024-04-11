@@ -1,1 +1,43 @@
-<!-- TODO -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWEB Survey Page</title>
+</head>
+
+<body>
+    <h1>KWEB Survey Page</h1>
+    <div class="logo"><img src="images/logo.png" alt="KWEB logo" width="350"></div>
+    <span class="homepage"><a href="https://kwebofficial.com/">KWEB Homepage</a></span>
+    <div class="name">
+        <h2>1. Write your name.</h2>
+        <input type="text">
+    </div>
+    <div class="studentnumber">
+        <h2>2. Write your student number.</h2>
+        <input type="text">
+    </div>
+    <div class="memberlevel">
+        <h2>3. Select your member level.</h2>
+        <label><input type="radio" name="memberlevel" value="Admin">Admin</label>
+        <label><input type="radio" name="memberlevel" value="Intern">Intern</label>
+        <label><input type="radio" name="memberlevel" value="Qualified">Qualified</label>
+    </div>
+    <div class="fields">
+        <h2>4. Select all fields you are interested in.</h2>
+        <label><input type="checkbox" name="fields" value="Front-end">Front-end</label>
+        <label><input type="checkbox" name="fields" value="Back-end">Back-end</label>
+        <label><input type="checkbox" name="fields" value="Web crawling">Web crawling</label>
+        <label><input type="checkbox" name="fields" value="Web security">Web security</label>
+        <label><input type="checkbox" name="fields" value="Etcetera">Etcetera <input type="text"></label>
+    </div>
+    <div class="feedback">
+        <h2>5. Give us your overall evaluation and feedback about the previous study.</h2>
+        <textarea name="feedback" cols="80" rows="20"></textarea>
+    </div>
+    <span class="Submit"><button>Submit your answers</button></span>
+</body>
+
+</html>
