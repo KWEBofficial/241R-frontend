@@ -1,24 +1,40 @@
-<h3>Input username:</h3>
-<input type="text" name="username" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign2-2</title> 
+  </head>
 
-<h3>Input password:</h3>
-<input type="password" name="password" />
+  <body>
+    <div class="user-signin" id="user-signin">
+      <h3>Input username:</h3>
+      <input type="text" name="username" />
 
-<h3>Gender:</h3>
-<label><input type="radio" name="gender" value="male" />Male</label>
-<label><input type="radio" name="gender" value="female" />Female</label>
-<label><input type="radio" name="gender" value="other" />Other</label>
-<h3>Your Major:</h3>
-<select name="major">
-  <option value="cs">Computer Science</option>
-  <option value="phy">Physics</option>
-  <option value="chm">Chemistry</option>
-  <option value="math">Mathematics</option>
-</select>
-<h3>Introduce yourself:</h3>
-<textarea
-  cols="40"
-  rows="5"
-  placeholder="Introduce yourself"
-  name="introduction"
-></textarea>
+      <h3>Input password:</h3>
+      <input type="password" name="password" />
+    </div>
+    <span class="user-info" id="user-info">
+      <h3>Gender:</h3>
+      <label><input type="radio" name="gender" value="male" />Male</label>
+      <label><input type="radio" name="gender" value="female" />Female</label>
+      <label><input type="radio" name="gender" value="other" />Other</label>
+      <h3>Your Major:</h3>
+      <select name="major">
+        <option value="cs">Computer Science</option>
+        <option value="phy">Physics</option>
+        <option value="chm">Chemistry</option>
+        <option value="math">Mathematics</option>
+      </select>
+    </span>
+    <div class="user-additional" id="user-additional">
+      <h3>Introduce yourself:</h3>
+      <textarea
+        cols="40"
+        rows="5"
+        placeholder="Introduce yourself"
+        name="introduction"
+      ></textarea>
+      </div>
+  </body>
+
+</html>
