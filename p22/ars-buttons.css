@@ -1,1 +1,25 @@
-/* TODO */
+.container .header {
+    text-align: center;
+}
+
+.container .numbers {
+    padding-top: 15px;
+    margin-left: 80px;
+}
+
+.container .numbers .number {
+    width: 50px; height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #D58683;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.container .footer {
+    padding-top: 15px;
+    margin-left: 30px;
+}
