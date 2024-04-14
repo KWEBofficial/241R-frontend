@@ -1,1 +1,23 @@
 /* TODO */
+h1 {
+    text-align: center;
+}
+
+.horizontal-lists {
+    text-align: justify;
+    padding-left: 515px;
+}
+
+.chapter-name {
+    text-align: justify;
+    padding-left: 515px;
+    font-weight: bold;
+}
+
+#current-chapter > .chapter-name{
+    color: red;
+}
+
+.chapter > .horizontal-lists {
+    color: blue;
+}
