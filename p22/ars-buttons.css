@@ -1,1 +1,20 @@
 /* TODO */
+.numbers {
+    display:flex;
+    padding: 0px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: salmon;
+}
