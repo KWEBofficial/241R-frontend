@@ -3,7 +3,7 @@
     font-size: large;
 }
 .numbers{             
-    display: flex;
+    display: inline-flex;
     margin: 30px;
 }
 .number{
