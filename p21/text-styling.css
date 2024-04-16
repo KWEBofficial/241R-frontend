@@ -1,1 +1,19 @@
-/* TODO */
+h1{
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+}
+div.chapter-name{
+    font-weight: bold;
+    padding-left: 33%;
+    list-style-type: none
+}
+div.chapter div.horizontal-lists{
+    color :blue;
+}
+div#current-chapter div.chapter-name{
+    color:red;
+}
+div.horizontal-lists{
+    padding-left: 33%;
+}
