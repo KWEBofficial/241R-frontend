@@ -1,1 +1,21 @@
-/* TODO */
+.numbers {
+    display: flex;
+    text-align: center;
+}
+
+.number{
+    background-color: lightcoral;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.number:first-child{
+    margin-left: 80px;
+}

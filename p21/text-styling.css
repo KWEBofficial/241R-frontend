@@ -1,1 +1,15 @@
-/* TODO */
+h1:first-child {
+    text-align: center;
+} 
+
+.horizontal-lists:not(:first-of-type) {
+    color: blue;
+}
+
+.chapter-name{
+    font-weight: bold;
+}
+
+#current-chapter .chapter-name{
+    color: red;
+}
