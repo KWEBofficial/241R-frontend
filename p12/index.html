@@ -1,32 +1,35 @@
-<div id="get-username">
+<div class="get-username">
   <h3>Input username:</h3>
   <input type="text" name="username" id="username" >
 </div>
-<div id="get-password">
+<div class="get-password">
   <h3>Input password:</h3>
   <input type="password" name="password" id="password" >
 </div>
-<div id="get-gender">
+<div class="get-gender">
   <h3>Gender:</h3>
-  <label><input type="radio" name="gender" value="male" >Male</label>
-  <label><input type="radio" name="gender" value="female" >Female</label>
-  <label><input type="radio" name="gender" value="other" >Other</label>
+  <div class="options"><label><input type="radio" name="gender" value="male" >Male</label></div>
+  <div class="options"><label><input type="radio" name="gender" value="female" >Female</label></div>
+  <div class="options"><label><input type="radio" name="gender" value="other" >Other</label></div>
 </div>
-<div id="get-major">
+<div class="get-major">
   <h3>Your Major:</h3>
   <select name="major">
-    <option type="subject" value="cs">Computer Science</option>
-    <option type="subject" value="phy">Physics</option>
-    <option type="subject" value="chm">Chemistry</option>
-    <option type="subject" value="math">Mathematics</option>
+    <div class="options"><option type="subject" value="cs">Computer Science</option></div>
+    <div class="options"><option type="subject" value="phy">Physics</option></div>
+    <div class="options"><option type="subject" value="chm">Chemistry</option></div>
+    <div class="options"><option type="subject" value="math">Mathematics</option></div>
   </select>
 </div>
-<div id="get-introduce">
+<div class="get-introduce">
   <h3>Introduce yourself:</h3>
-  <textarea
+  <span>
+    <textarea
     cols="40"
     rows="5"
     placeholder="Introduce yourself"
     name="introduction">
   </textarea>
+</span>
+ 
 </div>
