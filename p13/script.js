@@ -1,1 +1,0 @@
-const changeBoxColor = () => {}; /* TODO */
