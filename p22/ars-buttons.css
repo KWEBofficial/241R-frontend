@@ -1,1 +1,27 @@
 /* TODO */
+/*.number{
+    width: 50px; height: 50px; 
+    background-color:  salmon;         
+    border-radius: 50%;
+    display: inline-block
+}
+*/
+
+/* 아래는 위에서 설정한 내용 */
+.number {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    border-color: black;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+}
