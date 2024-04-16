@@ -1,1 +1,21 @@
 /* TODO */
+
+.chapter .horizontal-lists{
+    color:blue;
+}
+
+#current-chapter{
+    color:red;
+}
+.chapter-name{
+    font-weight: 1000;
+}
+h1{
+    text-indent: 14%;
+}
+
+/* chapter와 horizontal-lists class는 파란색이고 current-chatpter id는 빨간색인데  우선순위 id >class라 current chapter에 속한 Ch3아래까지 전부 붉은색 되야하는거 아닌가요? */
+
+
+
+
