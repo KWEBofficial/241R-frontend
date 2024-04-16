@@ -1,1 +1,4 @@
 /* TODO */
+.chapter-name {font-weight: bold;}
+#current-chapter {color: red;}
+.horizontal-lists:not(:first-of-type){color: blue;}
