@@ -1,1 +1,19 @@
 /* TODO */
+.numbers {
+    display: flex;
+    justify-content: center;
+  }
+  .number {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    background-color: #e68a8a; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    align-items: center;
+  }
