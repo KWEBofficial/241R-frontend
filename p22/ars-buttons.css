@@ -1,1 +1,22 @@
 /* TODO */
+.number {
+    width : 50px;
+    height : 30px;
+    border : 1px solid black;
+    border-radius: 100%;
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding-top : 20px;
+    justify-content: center;
+
+   
+}
+
+.numbers {
+    left: 10%;
+    padding : 10px 60px;
+
+
+}
