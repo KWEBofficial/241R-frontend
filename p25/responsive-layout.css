@@ -1,1 +1,42 @@
-/* TODO */
+div{margin-bottom: 20px;}
+
+.header{    
+    height: 200px;
+    background-color: lightpink;
+    border: 2px solid red;
+}
+
+.navbar{    
+    height: 300px;
+    background-color: gold;
+    border: 2px solid goldenrod;
+
+}
+
+.content{    
+    height: 450px;
+    background-color: skyblue;
+    border: 2px solid blue;
+}
+
+.footer{    
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+
+@media only screen and (min-width: 800px) {
+    .navbar {
+        width: 19%;
+        height: 500px;
+        display: inline-block;
+        border: 2px solid goldenrod;
+    }
+    .content {
+        width: 79%;
+        height: 500px;
+        display: inline-block;
+        border: 2px solid blue;
+        }
+    }

@@ -1,1 +1,21 @@
-/* TODO */
+#scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 10px solid darkblue;
+    border-radius: 30px;
+    padding-bottom: 3px;
+    background-color: #00008B;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#scroll-button a {
+    text-decoration: none;
+    padding: 0px 5px;
+    color: white;
+}
+
+.scroll-button-cell:not(#top-scroll-cell) {
+    border-top: 2px solid white
+}
