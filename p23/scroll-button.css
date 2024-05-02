@@ -1,1 +1,13 @@
-/* TODO */
+#scroll-button-up a {
+    text-decoration: none;
+    left : 0px;
+    bottom : 20px;
+    position : fixed;
+  }
+
+  #scroll-button-down a {
+    text-decoration: none;
+    left : 0px;
+    bottom : 0px;
+    position : fixed;
+  }
