@@ -1,1 +1,17 @@
-/* TODO */
+.number {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: lightcoral;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+}
+
+.numbers {
+    width: 400px;
+    margin: auto;
+}
