@@ -1,1 +1,41 @@
-/* TODO */
+
+.header{
+    background-color: pink;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 1%;
+}
+
+.navbar{
+    background-color: gold;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 1%;
+}
+
+.content{
+    background-color: skyblue;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 1%;
+}
+
+.footer{
+    background-color: greenyellow;
+    width: 100%;
+    height: 20vh;
+}
+
+@media only screen and (min-width: 800px){
+    .navbar{
+        display: inline-block;
+        width: 20%;
+        height: 70vh;
+    }
+    
+    .content{
+        display: inline-block;
+        width: 79%;
+        height: 70vh;
+    }
+}

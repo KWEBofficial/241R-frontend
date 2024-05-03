@@ -1,1 +1,41 @@
-/* TODO */
+#scroll-button{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: darkblue;
+}
+
+#arrow-up{
+    color: white;
+    position: absolute;
+    bottom: 37px;
+    right: 7px;
+}
+
+#arrow-down{
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+
+#arrow-down:active{
+    color: grey;
+}
+
+#arrow-up:active{
+    color: grey;
+}
+
+#separator{
+    background-color: white;
+    height: 2px;
+    border:none;
+    position: relative;
+    top: 20px;
+}
