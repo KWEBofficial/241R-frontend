@@ -1,1 +1,16 @@
-/* TODO */
+.number {
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-bottom;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    line-height: 50px;
+}
+
+.numbers {
+    padding: 0px 50px
+}
