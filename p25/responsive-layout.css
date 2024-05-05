@@ -1,1 +1,40 @@
-/* TODO */
+.header {
+    background-color: pink;
+    height: 100px;
+}
+
+.body div{
+    display: inline-block;
+}
+
+.navbar {
+    background-color: gold;
+    height: 300px;
+    width: 20%;
+}
+
+.content {
+    background-color: lightblue;
+    height: 300px;
+    width: 79%;
+}
+
+.footer {
+    background-color: greenyellow;
+    height: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .body div {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar {
+        height: 200px;
+    }
+
+    .content {
+        height: 400px;
+    }
+}

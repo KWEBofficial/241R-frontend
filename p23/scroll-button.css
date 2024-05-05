@@ -1,1 +1,15 @@
-/* TODO */
+#scroll-button {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    border-radius: 15px;
+    height: 65px;
+    background-color: darkblue;
+}
+
+#scroll-button a {
+    color: white;
+}
