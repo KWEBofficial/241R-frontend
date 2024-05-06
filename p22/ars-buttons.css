@@ -1,5 +1,6 @@
 .numbers{
-    text-align: center;
+    margin: 20px 0;
+    text-align: center
 }
 .number {
     display: inline-block;
