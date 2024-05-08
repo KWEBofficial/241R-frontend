@@ -1,1 +1,23 @@
-/* TODO */
+body {
+    background-color: skyblue;
+}
+
+@media only screen and (min-width:600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    body {
+        background-color: darkblue;
+    }
+}
+h1{
+    color:white;
+}
+@media only screen and (min-width:900px){
+    h1{
+        color:yellow;
+    }
+}
