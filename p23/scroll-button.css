@@ -1,1 +1,19 @@
 /* TODO */
+.tri{
+    background-color:blue;
+    
+    position:fixed;
+    color:white;
+    right:50px;
+}
+.up{
+    bottom:63px;
+    border-radius:100px 100px 0px 0px;
+    
+}
+.down{
+    bottom:40px;
+    border-radius:0px 0px 100px 100px;
+}
+
+/* #scroll button 내부 수정을 안했는데 무슨 의도였나요?..//// onclick말고 <a>태그로 하려면 어찌해야하는지 궁금합니다. */

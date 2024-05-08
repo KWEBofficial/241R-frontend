@@ -1,1 +1,49 @@
 /* TODO */
+.header{
+    background-color:pink;
+    height:100px;
+    margin:5px;
+
+}
+.navbar{
+    
+    @media screen and (max-width:800px){
+        margin:5px;
+        height:200px;
+        background-color:yellow;
+    }
+    @media screen and (min-width:800px){
+        display:inline-block;
+        height:400px;
+        background-color:yellow;
+        width:20%;
+        margin:5px 0px 5px 5px;
+        box-sizing:border-box;
+        
+    }
+}
+.content{
+    @media screen and (max-width:800px){
+        margin:5px;
+        height:300px;
+        background-color:skyblue;
+    }
+    @media screen and (min-width:800px){
+        display:inline-block;
+        height:400px;
+        background-color:skyblue;
+        width:78%;
+        box-sizing:border-box;
+        
+        margin:5px 0px 5px 0px;
+    }
+}
+.footer{
+    background-color:greenyellow;
+    height:100px;
+    margin:5px;
+}
+
+
+
+
