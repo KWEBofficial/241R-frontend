@@ -24,7 +24,7 @@
     height: 100px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     .body div {
         display: block;
     }
