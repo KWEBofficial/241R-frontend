@@ -1,1 +1,32 @@
-/* TODO */
+#scroll-button{
+    width: 32px;
+    height: 60px;
+    background-color: darkblue;
+
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 16px;
+}
+
+#up{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.line{
+    height: 1px;
+    width: 25px;
+    background-color: white;
+    margin-bottom: 3.5px;
+}
+
+
+#down{
+    color: white;
+    margin-bottom: 2.5px;
+}
