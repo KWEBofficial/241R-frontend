@@ -1,1 +1,60 @@
 /* TODO */
+html,
+body{
+    height: 80%;
+    width: 90%;
+    display: inline-block
+}
+.body{
+    height: 70%;
+    width: 100%;
+    display: block;
+    margin: 10px 10px 10px 0px;
+}
+.header{
+    background: rgb(255, 179, 204);
+    border-color: rgb(238, 103, 148);
+    border-style: solid;
+    height: 10%;
+    width: 100%;
+    display: block;
+}
+.navbar{
+    background-color: rgb(255, 240, 123);
+    border-color: rgb(255, 234, 72);
+    border-style: solid;
+    height: 38%;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.content{
+    background-color: rgb(130, 180, 245);
+    border-color: rgb(57, 118, 197);
+    border-style: solid;
+    height: 58%;
+    width: 100%;
+    display: inline-block;
+}
+.footer{
+    background-color: rgb(65, 212, 141);
+    border-color: rgb(49, 163, 108);
+    border-style: solid;
+    height: 20%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 800px){
+    .navbar{
+        height: 99%;
+        width: 20%;
+        display: inline-block;
+    }
+    .content{
+        height: 100%;
+        width: 78%;
+        display: inline-block;
+    }
+}

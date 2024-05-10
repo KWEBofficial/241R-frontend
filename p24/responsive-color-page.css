@@ -1,1 +1,31 @@
 /* TODO */
+/*body 태그의 배경색이 600px 미만일 때는 skyblue, 
+600px 이상 1200px 미만일 때는 blue, 
+1200px 이상일 때는 darkblue이어야 하며, 
+h1 태그의 색은 900px 미만일 때는 white, 
+900px 이상일 때는 yellow이어야 한다.*/
+
+body{
+    background-color: skyblue;
+}
+h1{
+    color:white
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        background-color: darkblue;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    h1{
+        color: yellow;
+    }
+}

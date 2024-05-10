@@ -1,1 +1,38 @@
-/* TODO */
+#scroll-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#button1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: navy navy white navy;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+
+    color: white;
+    text-align: center;
+
+    background-color: navy;
+    
+    padding: 10px;
+
+    display: block;
+}
+
+#button2{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white navy navy navy;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+
+    color: white;
+    text-align: center;
+
+    background-color: navy;
+
+    padding: 10px;
+    display: block;
+}
