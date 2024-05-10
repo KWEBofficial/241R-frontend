@@ -1,1 +1,62 @@
-/* TODO */
+@media (min-width: 0) {
+    .header {
+        width: 300px;
+        height: 50px;
+        background-color: pink;
+        border: 0.5px solid rgb(252, 60, 92);
+        margin-bottom: 5px;
+    }
+    .navbar {
+        width: 300px;
+        height: 90px;
+        background-color: gold;
+        border: 0.5px solid rgb(133, 115, 12);
+        margin-bottom: 5px;
+    }
+    .content {
+        width: 300px;
+        height: 100px;
+        background-color: lightskyblue;
+        border: 0.5px solid rgb(0, 122, 197);
+        margin-bottom: 5px;
+    }
+    .footer {
+        width: 300px;
+        height: 80px;
+        background-color: lightgreen;
+        border: 0.5px solid rgb(6, 157, 6);
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 800px) {
+    .header {
+        width: 605px;
+        height: 50px;
+        background-color: pink;
+        border: 0.5px solid rgb(252, 60, 92);
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .navbar {
+        width: 100px;
+        height: 170px;
+        background-color: gold;
+        border: 0.5px solid rgb(133, 115, 12);
+        float: left;
+    }
+    .content {
+        width: 500px;
+        height: 170px;
+        background-color: lightskyblue;
+        border: 0.5px solid rgb(0, 122, 197);
+        display: inline-block;
+        margin-left: 1px;
+    }
+    .footer {
+        width: 605px;
+        height: 80px;
+        background-color: lightgreen;
+        border: 0.5px solid rgb(6, 157, 6);
+        display: inline-block;
+    }
+}
