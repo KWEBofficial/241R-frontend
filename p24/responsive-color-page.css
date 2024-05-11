@@ -1,1 +1,30 @@
 /* TODO */
+
+body {
+    background-color: skyblue; /* 기본 배경색 */
+}
+
+h1 {
+    color: white; /* 기본 h1 색상 */
+}
+
+/* 화면 너비가 600px 이상일 때의 배경색 */
+@media (min-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* 화면 너비가 1200px 이상일 때의 배경색 */
+@media (min-width: 1200px) {
+    body {
+        background-color: darkblue;
+    }
+}
+
+/* 화면 너비가 900px 이상일 때의 h1 태그 색상 */
+@media (min-width: 900px) {
+    h1 {
+        color: yellow;
+    }
+}

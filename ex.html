@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .example{
+            background-color: aqua;
+            width: 300px;
+            height: 300px;
+            padding: 20px 10px 5px 0px;
+            border: 10px solid black;
+            margin: 10px;
+        }
+        /* div {
+            display: inline;
+        }
+        이처럼 div의 속성을 display를 활용해서 바꿀 수 있음 */
+        #position{
+
+            position: relative;
+            /* bottom: 500px; */
+            /* bottom일 때 relative position */
+
+            /* position: absolute; */
+            /* absolute는 문서의 시작 지점을 기준으로 있겠다; 다른 거의 영향을 받지 않는다 */
+            
+            /* position: fixed;
+            left: 300px; */
+            /* right, bottom, top 다 가능 */
+
+            /* static으로 하면 어떠한 변화를 줘도 안먹힌다 */
+        }
+
+        @media only screen and (min-width: 600px) {
+            .example{
+                background-color: red;
+            }
+        }
+        /* 모바일과 데스크탑 화면 비율이 다르므로 화면 비율을 조정할 때 자주 쓰인다 */
+    
+    </style>
+</head>
+<body>
+    <div class="example"></div>
+    <div class="example" id="position"></div>
+    <div class="example"></div>
+    <div class="example"></div>
+    <h1>안녕하세요</h1>
+    <h2>반갑 <div>습</div>니다.</h2>
+    <h2>반갑 <span>습</span>니다.</h2>
+    <!-- div는 속성이 block이기 때문에 줄 바뀜
+    span은 inline이기 때문에 줄 바뀜이 안된다 -->
+</body>
+</html>
