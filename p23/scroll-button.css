@@ -1,1 +1,12 @@
 /* TODO */
+#scroll-button {
+    position: fixed;
+    right: 8%;
+    bottom: 5%;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 5px;
+}
+#scroll-button a{
+    color: white;
+}
