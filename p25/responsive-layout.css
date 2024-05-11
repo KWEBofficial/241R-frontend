@@ -1,1 +1,50 @@
-/* TODO */
+/* 기본 스타일 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header,
+.footer {
+  background-color: #ffcccc; /* 연한 분홍색 */
+  padding: 20px;
+  text-align: center;
+}
+
+.body {
+  display: flex; /* 수평 정렬을 위한 플렉스 설정 */
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #ffff66; /* 연한 노란색 */
+  width: 20%; /* 너비가 800px 이상일 때 20%로 설정 */
+  padding: 20px;
+  min-height: 200px; /* 최소 높이 설정 */
+}
+
+.content {
+  background-color: #99ccff; /* 연한 파란색 */
+  width: 80%; /* 너비가 800px 이상일 때 80%로 설정 */
+  padding: 20px;
+  min-height: 200px; /* 최소 높이 설정 */
+}
+
+.footer {
+  background-color: #99ff99; /* 연한 녹색 */
+  width: 100%; /* 전체 너비를 차지 */
+  padding: 20px;
+  text-align: center;
+}
+
+/* 미디어 쿼리를 사용하여 800px 너비 이하에서 레이아웃 변경 */
+@media (max-width: 800px) {
+  .body {
+    flex-direction: column; /* 요소들을 수직으로 쌓음 */
+  }
+
+  .navbar,
+  .content {
+    width: 100%; /* 모든 요소가 전체 너비를 차지하도록 설정 */
+  }
+}
