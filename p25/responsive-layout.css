@@ -1,1 +1,48 @@
-/* TODO */
+.header{
+    background-color: pink;
+    height: 10vh;
+    margin-bottom: 5px;
+}
+
+.navbar{
+    background-color: yellow;
+    height: 20vh;
+    margin-bottom: 5px;
+}
+
+.content{
+    background-color: skyblue;
+    height: 30vh;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: lawngreen;
+    height:20vh;
+}
+
+
+
+@media only screen and (min-width: 800px){
+    .body{
+        display:flex;
+    }
+    .navbar{
+        background-color: yellow;
+        height: 50vh;
+        width: 25vw;
+        margin-right: 2px;
+    }
+    
+    .content{
+        background-color: skyblue;
+        height: 50vh;
+        width: 75vw;
+        margin-right: 2px;
+    }
+
+    .footer{
+        background-color: lawngreen;
+        height:30vh;
+    }
+}
