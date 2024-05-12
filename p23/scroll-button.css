@@ -1,1 +1,42 @@
-/* TODO */
+#content {
+    padding: 30px 100px;
+    margin: 0 auto;
+  }
+  ul {
+    margin: 20px 0;
+  }
+  li {
+    margin: 10px 0;
+  }
+  .fixed-button {
+    position: fixed;
+    z-index: 1000;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fixed-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 위쪽 화살표 버튼 스타일 */
+  .fixed-button.top {
+    right: 20px; /* 아래쪽 버튼과 겹치지 않도록 조정 */
+    bottom: 80px; /* 아래쪽 버튼과 겹치지 않도록 조정 */
+  }
+  
+  /* 아래쪽 화살표 버튼 스타일 */
+  .fixed-button.bottom {
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  /* 아이콘과 버튼 사이의 간격 조정 */
+  .fixed-button .btn {
+    margin-right: 5px;
+  }
+  
