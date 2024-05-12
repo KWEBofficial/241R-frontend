@@ -1,1 +1,43 @@
-/* TODO */
+* {
+    margin-top: 10px;
+}
+
+.header {
+    background-color: pink;
+    border: 1px solid red;
+    height: 100px;
+}
+
+.navbar {
+    background-color: yellow;
+    border: 1px solid orange;
+    height: 200px;
+}
+
+.content {
+    background-color: skyblue;
+    border: 1px solid blue;
+    height: 300px;
+}
+
+.footer {
+    background-color: greenyellow;
+    border: 1px solid green;
+    height: 200px;
+}
+
+@media only screen and (min-width: 800px) {
+
+
+    .navbar {
+        display: inline-block;
+        height: 400px;
+        width: 20%;
+    }
+
+    .content {
+        display: inline-block;
+        height: 400px;
+        width: 75%;
+    }
+}
