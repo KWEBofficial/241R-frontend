@@ -1,1 +1,34 @@
 /* TODO */
+.header{
+    background-color:lightcoral;
+    height:10vh;
+    margin-bottom: 2.5vh;
+}
+.navbar{
+    background-color:#ffd600;
+    height: 25vh;
+    margin-bottom: 2.5vh;
+}
+.content{
+    background-color:skyblue;
+    height: 45vh;
+    margin-bottom: 2.5vh;
+}
+.footer{
+    background-color:lightgreen;
+    height: 25vh;
+    margin-bottom: 2.5vh;
+}
+@media (min-width:800px){
+    .body{
+        display:flex; 
+    }
+    .navbar{
+        height:45vh;
+        width:125vh;
+        margin-right: 1vh;
+    }
+    .content{
+        width:125vh;
+    }
+}
