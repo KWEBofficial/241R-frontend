@@ -1,1 +1,26 @@
 /* TODO */
+#scroll-button {
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 30px;
+    height: 50px;
+    padding: 5px 0 5px 0;
+    border-radius: 13px;
+}
+
+a {
+    color: white;
+}
+
+.divider {
+    background-color: white;
+    width: 28px;
+    height: 1px;
+}
