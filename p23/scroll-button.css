@@ -1,1 +1,27 @@
-/* TODO */
+#scroll-button {
+    width: 33px;
+    height: 60px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+#scroll-button-up {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+}
+
+#scroll-button-down {
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid white;
+}
+
+a {
+    color: white;
+}

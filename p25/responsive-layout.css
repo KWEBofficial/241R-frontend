@@ -1,1 +1,70 @@
-/* TODO */
+.header {
+    width: 95vw;
+    height: 10vh;
+    margin: 2vh auto;
+    background-color: pink;
+    border: 1px solid deeppink;
+}
+
+.body {
+    width: 95vw;
+    margin: 2vh auto;
+}
+
+.navbar {
+    background-color: gold;
+    border: 1px solid darkgoldenrod;
+}
+
+.content {
+    background-color: skyblue;
+    border: 1px solid blue;
+}
+
+.footer {
+    width: 95vw;
+    height: 20vh;
+    margin: 2vh auto;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    .body {
+        height: 60vh;
+        position: relative;
+    }
+
+    .navbar {
+        width: 25vw;
+        height: 60vh;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+    }
+
+    .content {
+        width: 69vw;
+        height: 60vh;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+        width: 95vw;
+        height: 25vh;
+        margin: 2vh 0;
+    }
+
+    .content {
+        width: 95vw;
+        height: 33vh;
+        margin: 2vh 0;
+    }
+}
