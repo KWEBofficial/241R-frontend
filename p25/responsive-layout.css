@@ -1,1 +1,43 @@
 /* TODO */
+.header{
+    height:100px;
+    background-color: pink;
+    margin-bottom: 10px;
+}
+.body{
+    display: flex;
+    height:300px;
+}
+.navbar{
+    background-color: yellow;
+}
+.content{
+    background-color: skyblue;
+}
+.footer{
+    height:100px;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+@media screen and (max-width: 799px){
+    .body{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .content{
+        flex: 1;
+        order: 1;
+    }
+}
+
+@media screen and (min-width:800px){
+    .navbar{
+        width:150px;
+    }
+    .content{
+        flex: 1;  
+    }
+}
