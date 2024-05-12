@@ -1,1 +1,65 @@
 /* TODO */
+.header {
+  background-color: pink;
+  width: 100%;
+  height: 50px;
+  border: 2px solid lightcoral;
+  margin-bottom: 10px;
+}
+.body {
+  display: flex;
+  margin-bottom: 10px;
+}
+.navbar {
+  background-color: rgb(255, 211, 68);
+  width: 100px;
+  height: 200px;
+  border: 2px solid darkgoldenrod;
+}
+.content {
+  background-color: lightblue;
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgb(105, 172, 255);
+}
+.footer {
+  background-color: lightgreen;
+  width: 100%;
+  height: 100px;
+  border: 2px solid green;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    background-color: pink;
+    width: 100%;
+    height: 50px;
+    border: 2px solid lightcoral;
+    margin-bottom: 10px;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    background-color: rgb(255, 211, 68);
+    width: 100%;
+    height: 200px;
+    border: 2px solid darkgoldenrod;
+    margin-bottom: 10px;
+  }
+  .content {
+    background-color: lightblue;
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(105, 172, 255);
+  }
+  .footer {
+    background-color: lightgreen;
+    width: 100%;
+    height: 200px;
+    border: 2px solid green;
+    margin-bottom: 10px;
+  }
+}

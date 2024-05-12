@@ -1,0 +1,49 @@
+<!--Layouts-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .example {
+            background-color: pink;
+            width: 300px;
+            height: 300px;
+            padding: 20px 10px 5px 0px;
+            border: 10px solid black;
+            margin: 20px 10px 5px 0px;
+        }
+
+        @media only screen and (min-width: 460px) {
+            .example {
+                background-color: blanchedalmond;
+            }
+        }
+
+        /*div {
+            display: inline;
+        }*/
+
+        /*position*/
+        #position {
+            /*position: absolute;*/
+            /*position: relative;
+            bottom: 500px;*/
+            /*위치 지정 속성: top left bottom right*/
+            position: fixed;
+            left: 300px
+        }
+
+    </style>
+</head>
+<body>
+    <div class="example"></div>
+    <div class="example" id="position"></div>
+    <div class="example"></div>
+    <div class="example"></div>
+    <h1>안녕하세요</h1>
+    <div>반갑<div>습</div>니다</div>
+    <div>반갑<span>습</span>니다</div>
+</body>
+</html>
