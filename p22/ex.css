@@ -1,0 +1,19 @@
+.box {
+    height: 300px;
+    border: 1px solid;
+    display: inline-block;
+    background-color: skyblue;
+    border-color: blue;
+}
+
+.red-box {
+    height: 100px;
+    background-color: pink;
+    border-color: red;
+}
+
+#pos-element {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}

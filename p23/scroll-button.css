@@ -1,1 +1,28 @@
-/* TODO */
+#scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 80px;
+    background-color: navy;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#scroll-button > .toTop {
+    font-size: 22px;
+    color: white;
+}
+hr {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+#scroll-button > .toBottom {
+    font-size: 22px;
+    color: white;
+}

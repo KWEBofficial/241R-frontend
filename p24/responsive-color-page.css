@@ -1,1 +1,19 @@
-/* TODO */
+body{
+    @media screen and (max-width: 600px) {
+        background-color: skyblue;
+    }
+    @media screen and (min-width: 600px) and (max-width: 1200px) {
+        background-color: blue;
+    }
+    @media screen and (min-width: 1200px) {
+        background-color: darkblue;
+    }
+}
+h1{
+    @media screen and (max-width: 900px) {
+        color: white;   
+    }
+    @media screen and (min-width: 900px) {
+        color: yellow;
+    }
+}
