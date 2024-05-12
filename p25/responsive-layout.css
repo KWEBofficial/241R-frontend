@@ -1,1 +1,60 @@
 /* TODO */
+.header{
+    background-color: lightpink;
+    border: 1px solid red;
+    height:10vh;
+    margin-bottom: 2vh;
+}
+.body{
+    margin-bottom:2vh;
+}
+.navbar{
+    background-color:gold;        
+    border:1px solid brown;
+    height: 20vh;
+    margin-bottom:2vh;
+}
+.content{
+    background-color: lightblue;
+    border:1px solid blue;
+    height:30vh;
+    margin-bottom:2vh;
+}
+.footer{
+    background-color:springgreen;
+    border:1px solid green;
+    height:20vh;
+
+}
+@media only screen and (min-width:800px){
+    .header{
+        background-color: lightpink;
+        border: 1px solid red;
+        height:10vh;
+        margin-bottom: 2vh;
+    }
+    .body{
+        display:flex;
+        margin-bottom:2vh;
+
+    }
+    .navbar{
+        background-color:gold;        
+        border:1px solid brown;
+        height: 50vh;
+        width:25vw;
+        margin-right:0.5vw;
+    }
+    .content{
+        background-color: lightblue;
+        border:1px solid blue;
+        height:50vh;
+        width:75vw;
+    }
+    .footer{
+        background-color:springgreen;
+        border:1px solid green;
+        height:20vh;
+
+    }
+}
