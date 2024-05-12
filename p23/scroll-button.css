@@ -1,1 +1,14 @@
-/* TODO */
+#scroll-button{
+    color: white;
+    width: 30px;
+    height: 70px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 10px;
+    background: blue;
+    outline-style: solid;
+    outline-color: black;
+    margin: 10px;
+    align-self: center;
+
+}
