@@ -1,1 +1,38 @@
 /* TODO */
+.header{
+    height: 10vh;
+    background-color: pink;
+    margin-bottom: 5px;
+}
+.body{
+    margin-bottom: 5px;
+}
+.navbar{
+    height: 25vh;
+    background-color: rgb(255, 225, 0);
+    margin-bottom: 5px;
+}
+.content{
+    height: 45vh;
+    background-color: skyblue;
+}
+.footer{
+    height: 20vh;
+    background-color: rgb(146, 201, 37);
+}
+@media only screen and (min-width: 800px) {
+    .body{
+        display: flex;
+    }
+    .navbar{
+        width:20%;
+        height: 70vh;
+        background-color: rgb(255, 225, 0);
+        margin-right: 3px;
+    }
+    .content{
+        width: 80%;
+        height: 70vh;
+        background-color: skyblue;
+    }
+}
