@@ -1,1 +1,87 @@
-/* TODO */
+.header {
+  background-color: palevioletred;
+}
+.navbar {
+  background-color: yellow;
+}
+.content {
+  background-color: skyblue;
+}
+.footer {
+  background-color: yellowgreen;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+  }
+
+  .header {
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+  }
+
+  .body {
+    display: grid;
+    width: 100%;
+    height: 60%;
+    margin: 10px 0px;
+    grid-template: 100%/1fr 4fr;
+    column-gap: 10px;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 20%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    height: 650px;
+    display: grid;
+    grid-template: 10% 70% 20%/1fr;
+    row-gap: 10px;
+  }
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+
+  .body {
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+    row-gap: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    margin: 5px 0px;
+  }
+}
