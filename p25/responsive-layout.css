@@ -1,1 +1,64 @@
-/* TODO */
+.header {
+    height: 10vh;
+    background-color: rgb(255, 195, 196);
+    margin-bottom: 5px;
+}
+
+.navbar {
+    height: 25vh;
+    background-color: rgb(255, 196, 47);
+    margin-bottom: 5px;
+}
+
+.content {
+    height: 40vh;
+    background-color: skyblue;
+    margin-bottom: 5px;
+}
+
+.footer {
+    height: 25vh;
+    background-color: aquamarine;
+}
+
+@media only screen and (min-width: 800px) {
+    .header {
+        height: 10vh;
+        background-color: rgb(255, 195, 196);
+        margin-bottom: 5px;
+    }
+    
+    .body {
+        display: inline-block;
+        width: 100%;
+        height: 65vh;
+        margin: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .body div {
+        display: inline-block;
+    }
+
+    .navbar {
+        margin: 0px;
+        width: 19.5%;
+        height: 100%;
+        background-color: rgb(255, 196, 47);
+        margin-right: 0.5px;
+    }
+    
+    .content {
+        margin: 0px;
+        width: 79.5%;
+        height: 100%;
+        background-color: skyblue;
+        margin-left: 0.5px;
+    }
+    
+    .footer {
+        height: 25vh;
+        background-color: aquamarine;
+    }
+}

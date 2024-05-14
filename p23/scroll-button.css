@@ -1,1 +1,21 @@
-/* TODO */
+#scroll-button {
+    position: fixed; top: 80%; left: 90%;
+    width: 30px;
+    height: 60px;
+    background-color: darkblue;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+#top-button {
+    display: block;
+    color: white;
+    margin: 7.5px;
+}
+
+#buttom-button {
+    display: block;
+    color: white;
+    margin: 7.5px;
+}
