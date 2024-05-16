@@ -1,1 +1,25 @@
 /* TODO */
+#scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#scroll-button a {
+  display: block;
+  text-align: center;
+  margin-bottom: 3px;
+  padding: 10px;
+  background: darkblue;
+  color: #ffff;
+}
+#scroll-up {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+#scroll-down {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#scroll-button span {
+  font-size: 24px;
+}
