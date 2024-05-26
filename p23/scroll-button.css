@@ -10,6 +10,7 @@
     border-radius: 50%/25%;
     background-color: darkblue;
 }
-#a{
+#scroll-button a{
     text-decoration: none;
+    color:white;
 }
