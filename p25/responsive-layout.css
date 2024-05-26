@@ -1,1 +1,61 @@
--
+/* TODO */
+/* 공통 스타일 */
+.header {
+    background-color: pink; /* 헤더의 배경색을 핑크색으로 설정 */
+    height: 50px; /* 헤더의 높이를 50픽셀로 설정 */
+    width: 100%; /* 헤더의 너비를 부모 요소의 100%로 설정 */
+    margin-bottom: 10px; /* 헤더 아래에 10픽셀의 여백을 추가 */
+}
+
+.body {
+    display: flex; /* .body 요소를 플렉스박스 컨테이너로 설정 */
+    flex-direction: row; /* 플렉스 아이템들을 행 방향으로 배열 */
+    width: 100%; /* .body 요소의 너비를 부모 요소의 100%로 설정 */
+    margin-bottom: 10px; /* .body 아래에 10픽셀의 여백을 추가 */
+}
+
+.navbar {
+    background-color: gold; /* 내비게이션 바의 배경색을 금색으로 설정 */
+    margin-right: 5px; /* 내비게이션 바 오른쪽에 5픽셀의 여백을 추가 */
+}
+
+.content {
+    background-color: lightblue; /* 콘텐츠 영역의 배경색을 연한 파란색으로 설정 */
+}
+
+.footer {
+    background-color: lightgreen; /* 푸터의 배경색을 연한 녹색으로 설정 */
+    height: 100px; /* 푸터의 높이를 100픽셀로 설정 */
+    width: 100%; /* 푸터의 너비를 부모 요소의 100%로 설정 */
+}
+
+/* 너비가 800px 미만일 때의 스타일 */
+@media (max-width: 799px) {
+    .body {
+        flex-direction: column; /* 화면 너비가 799px 이하일 때 .body의 아이템들을 세로로 쌓음 */
+    }
+
+    .navbar {
+        width: 100%; /* 화면 너비가 799px 이하일 때 네비게이션 바의 너비를 부모 요소의 100%로 설정 */
+        height: 100px; /* 네비게이션 바의 높이를 100픽셀로 설정 */
+        margin-bottom: 10px; /* 네비게이션 바 아래에 10픽셀의 여백을 추가 */
+    }
+
+    .content {
+        width: 100%; /* 화면 너비가 799px 이하일 때 콘텐츠 영역의 너비를 부모 요소의 100%로 설정 */
+        height: 300px; /* 콘텐츠 영역의 높이를 300픽셀로 설정 */
+    }
+}
+
+/* 너비가 800px 이상일 때의 스타일 */
+@media (min-width: 800px) {
+    .navbar {
+        width: 200px; /* 화면 너비가 800px 이상일 때 네비게이션 바의 너비를 200픽셀로 고정 */
+        height: 400px; /* 네비게이션 바의 높이를 400픽셀로 설정 */
+    }
+
+    .content {
+        width: 100%; /* 화면 너비가 800px 이상일 때 콘텐츠 영역의 너비를 부모 요소의 100%로 설정 */
+        height: 400px; /* 콘텐츠 영역의 높이를 400픽셀로 설정 */
+    }
+}
