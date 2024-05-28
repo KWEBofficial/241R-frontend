@@ -6,5 +6,8 @@ const getDivisors = (x) => {
             divisors = divisors.concat([i, x/i]);
         }
     }
+    if(x%sqrtX === 0) {
+        divisors = divisors.concat([sqrtX]);
+    }
     return divisors.sort((first, second) => first - second);
 };
