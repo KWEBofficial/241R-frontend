@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .switch{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function goNaver(){
+            location.href='https://www.naver.com'
+        }
+    </script>
+    <div id="container">
+        <h1>Articles List</h1>
+        <div class="article-title">
+            <a href="/article/5">Ch 5. JS: Dynamic Frontend</a>
+        </div>
+        <div class="article-title title">
+            <a class="anchor current switch" href="/article/4">Ch 4. Basics of JavaScript</a>
+        </div>
+        <div class="article-title title">
+            <a href="/article/3">Ch 3. CSS: Designing HTML</a>
+        </div>
+        <div class="article-title">
+            <a href="/article/2">Ch 2. HTML: The Basic Structure</a>
+        </div>
+        <div class="article-title">
+            <a href="/article/1">Ch 1. Introduction to Front-end</a>
+        </div>
+    </div>
+    <button id="go-naver-button">네이버가자</button>
+</body>
+</html>
+
+<!-- goNaver() : 함수가 실행된 상태.-->
+<!-- goNaver : 함수를 넘겨준 것. 실행X -->
