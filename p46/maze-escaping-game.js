@@ -2,7 +2,7 @@ const exit={
     row:1,
     col:7,
 };
-const currentPos={
+let currentPos={
     row:5,
     col:0,
 };
