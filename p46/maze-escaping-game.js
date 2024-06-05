@@ -65,4 +65,4 @@ document.addEventListener("keyup",(event2)=>{
 });
 
 
-/// 58이나 60줄 코드에서 처음에 className을 cell current, current로 변경했더니 적용이 안되던데 혹시 이유가 뭔지 알 수 있을까요??
+/// 58이나 60줄 코드에서 처음에 className을 cell current, current로 변경했더니 적용이 안되던데 혹시 이유가 뭔지 알 수 있을까요??..
