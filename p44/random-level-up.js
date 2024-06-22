@@ -13,7 +13,7 @@ const work = () => {
 
     document.getElementById('current-level').innerText = level;
     document.getElementById('attempts').innerText = attempts;
-    document.getElementById('gauge-bar').style.length = 30 * level;
+    document.getElementById('gauge-bar').style.length = 30 * level + "px";
 
     if (level == 10) {
         clearInterval(loopID);
