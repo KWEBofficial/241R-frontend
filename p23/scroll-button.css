@@ -1,1 +1,27 @@
-/* TODO */
+#scroll-button{
+    background-color: darkblue;
+    height: 50px;
+    width: 30px;
+    border-radius: 15px;
+    top:90%;
+    right: 10%;
+    position:fixed;
+    display: inline-block;
+    text-align: center;
+    border: 3px;
+}
+
+#scroll-button a{
+    color:white;
+    line-height: 150%;
+}
+
+#scroll-button a[href="#page-top"]{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    padding-top: 1px;
+}
+
+#scroll-button a[href="#page-bottom"]{
+    margin-top: 0%;
+} 
