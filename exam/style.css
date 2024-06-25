@@ -1,0 +1,143 @@
+.container {
+    padding: 10px;
+}
+
+.search-option {
+    display: inline-block;
+    padding: 0 10px 10px 0;
+    font-size: 16px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.post {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,
+            0,
+            0, 0.1);
+}
+
+.post-title,
+.post-content,
+.post-user {
+    display: block;
+    font-size: 16px;
+}
+
+.post-title {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.post-content {
+    color: #333;
+}
+
+.post-user {
+    color: #666;
+    text-align: right;
+}
+
+.post-user > a{
+    color:#666;
+    cursor:text;
+    text-decoration: none;
+}
+
+.post-title > a{
+    color:dodgerblue;
+    text-decoration: none;
+}
+.modal-container {
+    display: none; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    width: 100%; 
+    height: 100%; 
+    padding-top:15%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-header, .modal-body, .modal-footer{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid dodgerblue;
+    width: 30%;
+    font-size:16px;
+}
+
+.modal-header{
+    text-align: center;
+    color:dodgerblue;
+    font-weight: bold;
+    height:fit-content;
+
+}
+.modal-body {
+    color: #333;
+}
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+    color:#666;
+    text-align: left;
+}
+
+@media(min-width: 768px) {
+    #search {
+        display: inline-block;
+
+    }
+
+    .post-title,
+    .post-content,
+    .post-user {
+        display: inline;
+        padding-right: 10px;
+
+    }
+    .post-title {
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width: 800px) {
+
+    .post-title,
+    .post-content,
+    .post-user {
+        color:olive;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .modal-content{
+        overflow:hidden;        
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    }
+}
