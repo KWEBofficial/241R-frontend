@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWEB Board</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="search-container" class="container">
+        <div class="search-option">
+            <input type="radio" name="search-option" value="title" id="search-title" checked>
+            <label for="search-title">Title</label>
+        </div>
+        <div class="search-option">
+            <input type="radio" name="search-option" value="content" id="search-content">
+            <label for="search-content">Content</label>
+        </div>
+        <div class="search-option">
+            <input type="radio" name="search-option" value="id" id="search-id">
+            <label for="search-id">Post ID</label>
+        </div>
+        <div id="search">
+            <input type="text" id="search-input" placeholder="Search posts...">
+            <button id="search-button">Search</button>
+        </div>
+    </div>
+    <div id="post-container" class="container">
+        <!-- Posts will be loaded here -->
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close-btn">&times;</span>
+            <h2 id="modal-title" class="modal-title"></h2>
+            <p id="modal-content" class="modal-content"></p>
+            <p id="modal-user" class="modal-user"></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="data.js" defer></script>
+    <script type="text/javascript" src="interface.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
+</body>
+</html>
