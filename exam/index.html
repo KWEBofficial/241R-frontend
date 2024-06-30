@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>KWEB Board</title>
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="interface.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="search-container" class="container">
+            <div class="search-option">
+                <input type="checkbox" value="title" />
+                <a>Title</a>
+            </div>
+            <div class="search-option">
+                <input type="checkbox" value="content" />
+                <a>Content</a>
+            </div>
+            <div class="search-option">
+                <input type="checkbox" value="id" />
+                <a>Post ID</a>
+            </div>
+
+            <div id="search">
+                <input type="text" id="search-input" placeholder="Search posts..." />
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+
+        <div id="post-container" class="container">
+        <!-- Posts will be loaded here -->
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <h2 class="modal-title"></h2>
+                <p class="modal-body"></p>
+                <p class="modal-author"></p>
+            </div>
+        </div>
+    </body>
+</html>
