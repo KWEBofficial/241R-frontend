@@ -12,6 +12,6 @@ const interface = {
         return data.posts.filter((post) => post.id === postId);
     },
     getUserById: function (userId) {
-        return /* TODO */;
+        return data.users.find(user => user.id == userId);
     },
    };

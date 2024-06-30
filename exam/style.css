@@ -73,12 +73,13 @@ button
  box-shadow:0 2px 5px rgba(0,0,0, 0.1);
 }
 .post-title, .post-content, .post-user
-{
+{  
  display: block;
  font-size: 16px;
 }
 .post-title
 {
+ cursor: pointer; 
  color: dodgerblue;
  font-weight: bold;
 }

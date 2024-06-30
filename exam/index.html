@@ -5,22 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>KWEB Board</title>
         <link type="text/css" rel="stylesheet" href="style.css" />
-        <script type="text/javascript" src="data.js"></script>
+        <!-- <script type="text/javascript" src="data.js"></script>
         <script type="text/javascript" src="interface.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script.js"></script> -->
     </head>
     <body>
         <div id="search-container" class="container">
             <div class="search-option">
-                <input type="checkbox" value="title" />
+                <input type="radio" name="search-option" value="title" checked/>
                 <a>Title</a>
             </div>
             <div class="search-option">
-                <input type="checkbox" value="content" />
+                <input type="radio" name="search-option" value="content" />
                 <a>Content</a>
             </div>
             <div class="search-option">
-                <input type="checkbox" value="id" />
+                <input type="radio" name="search-option" value="id" />
                 <a>Post ID</a>
             </div>
 
@@ -38,10 +38,13 @@
         <div id="modal" class="modal">
             <div class="modal-content">
                 <span class="modal-close">&times;</span>
-                <h2 class="modal-title"></h2>
-                <p class="modal-body"></p>
-                <p class="modal-author"></p>
+                <h2 class="modal-title">title</h2>
+                <p class="modal-body">body</p>
+                <p class="modal-author">author</p>
             </div>
         </div>
     </body>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="interface.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </html>
